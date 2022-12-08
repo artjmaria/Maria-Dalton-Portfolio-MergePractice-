@@ -4,6 +4,7 @@ body {
 
 ul.clearfix {
     background-color: blueviolet;
+    transition: width 2s, height 4s;
 
 }
 
