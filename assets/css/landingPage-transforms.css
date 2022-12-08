@@ -1,0 +1,51 @@
+@keyframes slidein {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+
+
+}
+.navButton {
+    font-size: 13pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: 3s infinite alternate slidein;
+    display: block;
+    transition-property: transform;
+    transition-duration: 1s;
+    
+}
+
+#conInfo {
+    font-size: 10px;
+    
+    
+    
+}
+#conInfo:hover {
+    transform: skew(20deg, 30deg) translateY(150px);
+    
+}
+
+
+#abtMe {
+    font-size: 15px;
+    
+    
+}
+#abtMe:hover {
+    transform: skew(60deg, 40deg);
+}
+
+#pFolio {
+    font-size: 30px;
+    
+}
+#pFolio:hover {
+    transform: skew(10deg, 80deg);
+}
+
